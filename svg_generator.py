@@ -48,13 +48,21 @@ PALETTES = {
         "text": {"primary": "#1f2328", "secondary": "#59636e", "accent": "#216e39"},
         "panel": {"bg": "#ffffff", "border": "#d0d7de"},
     },
-    "yellow": {
+    "yellow_dark": {
         "name": "Yellow",
-        "background": "#1c1c1c",
-        "empty": "#4b4e53",
+        "background": "#0d1117",
+        "empty": "#0d1117",
         "levels": ["#FFE135", "#FFDA03", "#EDC001", "#C49102"],
-        "text": {"primary": "#f5f5f5", "secondary": "#a8a8a8", "accent": "#FFDA03"},
-        "panel": {"bg": "#1c1c1c", "border": "#4b4e53"},
+        "text": {"primary": "#e6edf3", "secondary": "#7d8590", "accent": "#FFDA03"},
+        "panel": {"bg": "#0d1117", "border": "#30363d"},
+    },
+    "yellow_light": {
+        "name": "Yellow",
+        "background": "#ffffff",
+        "empty": "#ebedf0",
+        "levels": ["#C49102", "#EDC001", "#FFDA03", "#FFE135"],
+        "text": {"primary": "#1f2328", "secondary": "#59636e", "accent": "#C49102"},
+        "panel": {"bg": "#ffffff", "border": "#d0d7de"},
     },
     "ocean": {
         "name": "Ocean",
@@ -64,14 +72,14 @@ PALETTES = {
         "text": {"primary": "#eaf7fb", "secondary": "#7fa8b5", "accent": "#7fe0ff"},
         "panel": {"bg": "#081c24", "border": "#123846"},
     },
-    "sunset": {
-        "name": "Sunset",
-        "background": "#1a1023",
-        "empty": "#2a1c33",
-        "levels": ["#7d2e68", "#c8395a", "#f2703c", "#ffc857"],
-        "text": {"primary": "#fdf3e7", "secondary": "#b79aa8", "accent": "#ffc857"},
-        "panel": {"bg": "#1a1023", "border": "#3a2740"},
-    },
+    # "sunset": {
+    #     "name": "Sunset",
+    #     "background": "#1a1023",
+    #     "empty": "#2a1c33",
+    #     "levels": ["#7d2e68", "#c8395a", "#f2703c", "#ffc857"],
+    #     "text": {"primary": "#fdf3e7", "secondary": "#b79aa8", "accent": "#ffc857"},
+    #     "panel": {"bg": "#1a1023", "border": "#3a2740"},
+    # },
 }
 
 FONT_STACK = '-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif'
