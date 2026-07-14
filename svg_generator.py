@@ -35,7 +35,7 @@ PALETTES = {
     "dark": {
         "name": "Dark",
         "background": "#0d1117",
-        "empty": "#0d1117",
+        "empty": "#1e232b",
         "levels": ["#0e4429", "#006d32", "#26a641", "#39d353"],
         "text": {"primary": "#e6edf3", "secondary": "#7d8590", "accent": "#39d353"},
         "panel": {"bg": "#0d1117", "border": "#30363d"},
@@ -43,7 +43,7 @@ PALETTES = {
     "light": {
         "name": "Light",
         "background": "#ffffff",
-        "empty": "#ebedf0",
+        "empty": "#C2C3C6",
         "levels": ["#9be9a8", "#40c463", "#30a14e", "#216e39"],
         "text": {"primary": "#1f2328", "secondary": "#59636e", "accent": "#216e39"},
         "panel": {"bg": "#ffffff", "border": "#d0d7de"},
@@ -51,7 +51,7 @@ PALETTES = {
     "yellow_dark": {
         "name": "Yellow",
         "background": "#0d1117",
-        "empty": "#0d1117",
+        "empty": "#282828",
         "levels": ["#FFE135", "#FFDA03", "#EDC001", "#C49102"],
         "text": {"primary": "#e6edf3", "secondary": "#7d8590", "accent": "#FFDA03"},
         "panel": {"bg": "#0d1117", "border": "#30363d"},
@@ -59,7 +59,7 @@ PALETTES = {
     "yellow_light": {
         "name": "Yellow",
         "background": "#ffffff",
-        "empty": "#ebedf0",
+        "empty": "#C2C3C6",
         "levels": ["#C49102", "#EDC001", "#FFDA03", "#FFE135"],
         "text": {"primary": "#1f2328", "secondary": "#59636e", "accent": "#C49102"},
         "panel": {"bg": "#ffffff", "border": "#d0d7de"},

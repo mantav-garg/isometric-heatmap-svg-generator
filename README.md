@@ -1,45 +1,12 @@
 # Isometric 3D Contribution Graph Generator
 
-<table width="100%">
-  <!-- <tr>
-    <td align="center" width="50%">
-      <a href="https://github.com/mantav-garg">
-        <h2> GitHub Activity</h2>
-      </a>
-    </td>
-    <td align="center" width="50%">
-      <a href="https://leetcode.com/u/MantavGarg/">
-        <h2> LeetCode Activity</h2>
-    </td>
-  </tr> -->
-  <tr>
-    <td align="left">
-      <h3> Sample Images ⬇️</h3>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <img
-        src="output/github-light.svg#gh-light-mode-only"
-        alt="GitHub Heatmap"
-        width="90%">
-      <img
-        src="output/github-dark.svg#gh-dark-mode-only"
-        alt="GitHub Heatmap"
-        width="90%">
-    </td>
-    <td align="center" width="50%">
-      <img
-        src="output/leetcode-yellow_light.svg#gh-light-mode-only"
-        alt="LeetCode Heatmap"
-        width="90%">
-      <img
-        src="output/leetcode-yellow_dark.svg#gh-dark-mode-only"
-        alt="LeetCode Heatmap"
-        width="90%">
-    </td>
-  </tr>
-</table>
+<h3>Sample image (Github)</h3>
+
+![Sample image](output\github-light.svg#gh-light-mode-only)![Project Logo](output\github-dark.svg#gh-dark-mode-only)
+
+<h3>Sample image (Leetcode)</h3>
+
+![Sample image](output\leetcode-yellow_light.svg#gh-light-mode-only)![Project Logo](output\leetcode-yellow_dark.svg#gh-dark-mode-only)
 
 Generate beautiful **isometric 3D SVG contribution graphs** for your GitHub profile, LeetCode submissions, or any future contribution-based platform.
 

@@ -39,7 +39,7 @@ THEMES = tuple(PALETTES.keys())
 # own page background. The stat cards keep their own panel background
 # either way, so their text stays legible. If False, each theme's
 # "background" color fills the whole canvas (the "card" look).
-TRANSPARENT_BACKGROUND = True
+TRANSPARENT_BACKGROUND = False
 
 # ---------------------------------------------------------------------------
 # Data source registry
