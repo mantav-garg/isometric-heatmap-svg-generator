@@ -1,20 +1,22 @@
 # Isometric 3D Contribution Graph Generator
 
+Generate beautiful **isometric 3D SVG contribution graphs** for your GitHub profile, LeetCode submissions, or any future contribution-based platform.
+
 <h3>Sample image (Github)</h3>
 
-![Sample image](output\github-light.svg#gh-light-mode-only)![Project Logo](output\github-dark.svg#gh-dark-mode-only)
+![Sample image](output/github-light.svg#gh-light-mode-only)![Sample image](output/github-dark.svg#gh-dark-mode-only)
 
 <h3>Sample image (Leetcode)</h3>
 
-![Sample image](output\leetcode-yellow_light.svg#gh-light-mode-only)![Project Logo](output\leetcode-yellow_dark.svg#gh-dark-mode-only)
+![Sample image](output/leetcode-yellow_light.svg#gh-light-mode-only)![Sample image](output/leetcode-yellow_dark.svg#gh-dark-mode-only)
 
-Generate beautiful **isometric 3D SVG contribution graphs** for your GitHub profile, LeetCode submissions, or any future contribution-based platform.
+
+## Description
 
 - The main Design focus of the whole project is **extensibilty** in the form of provision for addition of newer parsers and themes
 - This is achieved simply by adding the code to initialise the parser in the `main.py` and writing parsers for particular platforms
 - Custom themes can also be set in the `svg_generator.py` by following the format of the pre-existing `PALETTES` definer as the code renders SVG for each and every theme
 
----
 
 ## Features
 
@@ -24,7 +26,8 @@ Generate beautiful **isometric 3D SVG contribution graphs** for your GitHub prof
 * Transparent background option using boolean variable in `main.py`
 * Uses a common CSV format, so you can extend the code to render heatmaps for your own personal parsers too.
 * Generates clean, scalable SVGs
----
+
+
 
 ## Project Structure
 
@@ -60,8 +63,6 @@ OUTPUT_DIR = Path("output")
 TRANSPARENT_BACKGROUND = True
 ```
 
----
-
 ## Usage
 
 Simply run
@@ -82,8 +83,6 @@ Built-in Themes currently included: `dark, light, yellow_light, yellow_dark, Oce
 Adding a new theme only requires adding another entry to the `PALETTES` dictionary inside `svg_generator.py`.
 
 No other code needs to be modified.
-
----
 
 ## Adding New Data Sources
 
@@ -121,8 +120,6 @@ That's it.
 
 CSV generation and SVG rendering happen automatically as the code renders svg for available valid CSV files in `/data`
 
----
-
 ## Output
 
 Each generated SVG includes:
@@ -134,23 +131,15 @@ Each generated SVG includes:
 * Month labels
 * Day labels
 
----
-
 ## Data Sources
 
-### GitHub
+### - GitHub
 
-The project fetches data directly from GitHub's public contribution calendar page.
+The project fetches data directly from GitHub's public contribution calendar page. No authentication is required.
 
-No authentication is required.
+### - LeetCode
 
----
-
-### LeetCode
-
-Uses LeetCode's public GraphQL endpoint to retrieve the submission calendar.
-
-No authentication is required for public profiles.
+Uses LeetCode's public GraphQL endpoint to retrieve the submission calendar. No authentication is required for public profiles.
 
 ---
 
