@@ -146,6 +146,8 @@ Uses LeetCode's public GraphQL endpoint to retrieve the submission calendar. No 
 
 ## Extra Info
 
+I reccomend setting up a script file to run this code and push the SVGs to github like I have done in my profile readme repo.
+
 ![Python](https://img.shields.io/badge/Python-3.14.6-blue?style=for-the-badge&logo=python)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-green?style=for-the-badge)
 ![License](https://img.shields.io/github/license/mantav-garg/isometric-heatmap-svg-generator?style=for-the-badge&logo=github)
