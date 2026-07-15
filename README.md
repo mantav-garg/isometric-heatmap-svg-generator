@@ -147,6 +147,32 @@ Uses LeetCode's public GraphQL endpoint to retrieve the submission calendar. No 
 
 I recommend setting up a script to run this code and push the SVGs to github like I have made for windows in this repo using a .bat file. Using this you can upload updated SVGs easily with one click whenever you feel like it without setting up any server like other similar implementations.
 
+```
+Start
+ │
+Activate virtual environment
+ │
+Run Python program
+ │
+Deactivate virtual environment
+ │
+Stage all changes
+ │
+Are there staged changes?
+ ││
+ │├── Yes
+ ││    │
+ ││   Commit changes
+ ││    │
+ ││   Push to GitHub
+ ││
+ │└── No
+ │     │
+ │  Print "No changes to commit."
+ │
+Pause
+```
+
 ---
 
 ## Extra Info
