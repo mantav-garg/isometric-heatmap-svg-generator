@@ -2,13 +2,14 @@
 
 Generate beautiful **isometric 3D SVG contribution graphs** for your GitHub profile, LeetCode submissions, or any future contribution-based platform.
 
-<h3>Sample image (Github)</h3>
+## Sample images
 
-![Sample image](output/github-light.svg#gh-light-mode-only)![Sample image](output/github-dark.svg#gh-dark-mode-only)
+<img src="output/github-dark.svg" width="70%" alt="github dark">
+<img src="output/leetcode-yellow_dark.svg" width="70%" alt="leetcode yellow dark">
+<img src="output/github-light.svg" width="70%" alt="github light">
+<img src="output/leetcode-yellow_light.svg" width="70%" alt="leetcode yellow light">
+<img src="output/github-ocean.svg" width="70%" alt="github ocean">
 
-<h3>Sample image (Leetcode)</h3>
-
-![Sample image](output/leetcode-yellow_light.svg#gh-light-mode-only)![Sample image](output/leetcode-yellow_dark.svg#gh-dark-mode-only)
 
 
 ## Description

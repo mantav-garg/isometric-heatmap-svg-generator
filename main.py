@@ -23,8 +23,8 @@ from svg_generator import PALETTES, render_svg_from_csv
 # Configuration - set your usernames here
 # ---------------------------------------------------------------------------
 
-GITHUB_USERNAME = "mantav-garg"
-LEETCODE_USERNAME = "MantavGarg"
+GITHUB_USERNAME = "torvalds"
+LEETCODE_USERNAME = "Ma_Lin"
 
 DATA_DIR = Path("data")
 OUTPUT_DIR = Path("output")
