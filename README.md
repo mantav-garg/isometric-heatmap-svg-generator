@@ -159,18 +159,16 @@ Deactivate virtual environment
 Stage all changes
  │
 Are there staged changes?
- ││
- │├── Yes
- ││    │
- ││   Commit changes
- ││    │
- ││   Push to GitHub
- ││
- │└── No
- │     │
- │  Print "No changes to commit."
- │
-Pause
+ └────┐
+      ├─────────────┐
+     Yes            No
+      |             │
+Commit changes   "No changes to commit"
+      │             │
+Push to GitHub      │
+      ├─────────────┘
+ ┌────┘
+ Pause
 ```
 
 ---
