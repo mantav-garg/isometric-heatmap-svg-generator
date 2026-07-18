@@ -10,7 +10,14 @@ Generate beautiful **isometric 3D SVG contribution graphs** for your GitHub prof
 <img src="output/leetcode-yellow_light.svg" width="70%" alt="leetcode yellow light">
 <img src="output/github-ocean.svg" width="70%" alt="github ocean">
 
+## Setup
 
+- Clone repo
+- If desired generate venv
+- Install requirements.txt `pip install -r requirments.txt`
+- Change variable values in `main.py`
+- Run `main.py` via terminal, and you'll get output in `.\output`
+- Once you have tested the Code for yourself, you can integrate it in your github profile README like me (or any other way you wish to use it)
 
 ## Description
 
