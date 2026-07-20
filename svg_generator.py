@@ -32,20 +32,36 @@ from pathlib import Path
 # ---------------------------------------------------------------------------
 
 PALETTES = {
-    "dark": {
-        "name": "Github Dark",
+    "green_dark": {
+        "name": "Green Dark",
         "background": "#0d1117",
         "empty": "#1e232b",
         "levels": ["#0e4429", "#006d32", "#26a641", "#39d353"],
         "text": {"primary": "#e6edf3", "secondary": "#7d8590", "accent": "#39d353"},
         "panel": {"bg": "#0d1117", "border": "#30363d"},
     },
-    "light": {
-        "name": "Github Light",
+    "green_light": {
+        "name": "Green Light",
         "background": "#ffffff",
         "empty": "#C2C3C6",
         "levels": ["#9be9a8", "#40c463", "#30a14e", "#216e39"],
         "text": {"primary": "#1f2328", "secondary": "#59636e", "accent": "#216e39"},
+        "panel": {"bg": "#ffffff", "border": "#d0d7de"},
+    },
+    "greyscale_dark": {
+        "name": "Greyscale Dark",
+        "background": "#222323",
+        "empty": "#373b42",
+        "levels": ["#515151", "#989898", "#d1d1d1", "#ffffff"],
+        "text": {"primary": "#e6edf3", "secondary": "#7d8590", "accent": "#ffffff"},
+        "panel": {"bg": "#3B3B3B", "border": "#424141"},
+    },
+    "greyscale_light": {
+        "name": "Greyscale Light",
+        "background": "#ffffff",
+        "empty": "#C2C3C6",
+        "levels": ["#ffffff", "#d1d1d1", "#989898", "#515151"],
+        "text": {"primary": "#1f2328", "secondary": "#59636e", "accent": "#515151"},
         "panel": {"bg": "#ffffff", "border": "#d0d7de"},
     },
     "yellow_dark": {
